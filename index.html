@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery-list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mainDiv">
+        <h1 id="mainHeading">Grocery List</h1>
+        <input type="text" id="item-name-input" placeholder="item-name">
+        <input type="number" id="item-price-input" placeholder="item-price">
+        <button id="submit" onclick="insertItem()">Add</button>
+        <table>
+            <tr id="tableHeading">
+                <th>Sr. No.</th>
+                <th>Title</th> 
+                <th>Price</th>
+            </tr>
+            <tr id="grandtotal">
+                <td>0</td>
+                <td>Grand Total</td>
+                <td data-ns-test="grandTotal" id="grand-total">0</td>
+            </tr>
+        </table>
+    
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('groc-shop.jpg');
+    height: 100%;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#mainDiv{
+    text-align: center;
+}
+#mainHeading{
+    margin: 0px 0px 10px;
+    padding: 10px;
+    color: black;
+    background-color:darkseagreen;
+}
+#submit{
+    padding: 2px 5px;
+    width: 80px;
+    background-color:dimgray;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 5px;
+    color:chartreuse;
+    background-color: black;
+    width:250px;
+} 
+#grandtotal{
+    color: gold;
+    background-color: rgba(46, 43, 43, 0.829);
+}
